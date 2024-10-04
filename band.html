@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <title>Band</title>
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: rgb(22, 215, 240);
+        }
+            .container{
+                min-height: 100vh;
+                background-color: rgba(90, 72, 72, 0.582);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 20px;
+            }
+            .band{
+                padding: 15px 40px;
+            background-color: rgb(228, 19, 158);
+            color: rgb(255, 227, 205);
+            font-family: 'Dancing Script', cursive;
+            font-weight: 700;
+            font-size: 2rem;
+            position: relative;
+            text-align: center;
+            box-shadow: inset 2px 2px 10px rgb(14, 230, 226), inset 3px 4px 15px rgb(14, 114, 214);
+            }
+            .band::before{
+                content: '';
+            position: absolute;
+            top: -15px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 60px;
+            height: 15px;
+            background-color: rgb(237, 30, 210);
+            }
+            .band::after{
+                content: '';
+            position: absolute;
+            bottom: -15px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 60px;
+            height: 15px;
+            background-color: rgb(28, 123, 225);
+          }
+        </style>
+    </head>
+    <body>
+            <div class="band">
+                Vijay
+            </div>
+    </body>
+</html>

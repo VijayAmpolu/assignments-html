@@ -1,0 +1,119 @@
+<html>
+    <head>
+        <title>INVOICE</title>
+        <style>
+            *{
+               margin:0;
+               padding:0;
+               box-sizing: border-box;
+               font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+            .card{
+                background-color: aliceblue;
+                padding: 20px;
+                height: 100vh;
+                width: 50%;
+                background: url(./wave2.svg)bottom no-repeat; background-size: 100%;
+                background-size: cover;
+                margin-left: 400px;
+                color: black;
+            }
+            .data{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;  
+            }
+            table{
+            width: 100%;
+            margin-top: 20px;
+            color: black;
+            align-items: center;
+        }
+        table th{
+            padding: 10px;
+            background-color: #5050504d;
+            color: black;
+            align-items: center;
+        }
+        table td{
+            padding:10px;
+            border: none;
+            color: black;
+            align-items: center;
+        }
+        </style>
+    </head>
+    <body>
+        <SECtion class="card">
+            <DIV class="address">
+                <h1 class="heading">INVOICE</h1>
+                 <p>N:0000</p>
+            </DIV>
+            <section class="data">
+                <div>
+                    <h2>Bill to</h2>
+                    <p><small>larry peterson.123,<br>street city,1234+00<br>123 456 789</small></p>
+                </div>
+                <div>
+                    <h2>Bill from</h2>
+                    <p><small>power l.s.123,street,<br>city,1234+00 123 456 789</small></p>
+                </div>
+                <div>
+                    <h2>Date</h2>
+                    <p><small>12/10/24</small></p>
+                </div>
+            </section>
+        </SECtion> 
+        <table border="1">
+            <tr>
+                <th>Description</th>
+                <th>Price</th>
+                <th>Qty</th>
+                <th>Total</th>
+            </tr>
+            <tr>
+                <td>Caprricorn</td>
+                <td>$10.00</td>
+                <td>1</td>
+                <td>$10.00</td>
+            </tr>
+            <tr>
+                <td>Aquarius</td>
+                <td>$10.00</td>
+                <td>1</td>
+                <td>$10.00</td>
+            </tr>
+            <tr>
+                <td>Aries</td>
+                <td>$10.00</td>
+                <td>1</td>
+                <td>$10.00</td>
+            </tr>
+            <tr>
+                <td>Description</td>
+                <td>$10.00</td>
+                <td>1</td>
+                <td>$10.00</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>subtotal:</td>
+                <td>$90.00</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>tax:</td>
+                <td>$10.00</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>total</td>
+                <td>$100.00</td>
+            </tr>
+        </table>
+
+    </body>
+</html>

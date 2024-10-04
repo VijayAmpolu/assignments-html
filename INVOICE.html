@@ -1,0 +1,116 @@
+<html>
+    <head>
+        <title>Invoice</title>
+        <style>
+          *{
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          }
+          .card{
+            background-color: aliceblue; 
+            padding: 20px;
+            width: 40%;
+            height: 100vh;
+            background: url(./wave.svg)bottom no-repeat; background-size: 100%;
+            background-size: cover;  
+            color: white;
+            margin-left: 400px;
+          }
+        table{
+            width: 100%;
+            margin-top: 20px;
+            color: white;
+        }
+        table th{
+            padding: 10px;
+            background-color: #5050504d;
+            color: white;
+        }
+        table td{
+            padding:10px;
+            border: none;
+            color: white;
+        }
+        .data {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            color: white;
+            margin-top: 50px;
+        }
+
+        </style>
+    </head>
+    <body>
+       <section class="card">
+            <div class="address">
+                <h1 class="heading">EAST REPAIR INC</h1>
+                <P>1912 Harvest lane<br>new york, ny12210</P>
+            </div>
+            <section class="data">
+                <div>
+                    <h2>Bill to</h2>
+                    <p>John Smith<br>2 court square<br>New york,NY 12210</p>
+                </div>    
+                    <div>
+                        <h2>Ship to</h2>
+                     <p>John Smith<br>3787 pinview drive<br>Cambridge,NY 12210</p>
+                    </div> 
+                     <div>
+                        <p><b>Invoice</b>us-001 #<br><b>invoice Date </b>11/02/2019<br><b>p.o.#</b>23/12/2019<br><b>Due date</b>26/02/2019</p>
+                     </div>
+            </section>
+            <table border="1">
+                <tr>
+                    <th>QTY</th>
+                    <th>Description</th>
+                    <th>Unit price</th>
+                    <th>Amount</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Front and rear brake cabies</td>
+                    <td>100.00</td>
+                    <td>100.00</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>New set of pedal arms</td>
+                    <td>15.00</td>
+                    <td>30.00</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Labor 3hrs</td>
+                    <td>5.00</td>
+                    <td>15.00</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>SubTotal</td>
+                    <td>145.00</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>sales tax6.25%</td>
+                    <td>9.06</td>
+                </tr>
+                 <tr>
+                        <td></td>
+                        <td></td>
+                        <td>invoice total</td>
+                        <td>$154.06</td>
+                 </tr>
+            </table>
+            <br>
+            <h1>terms&conditions</h1>
+            <p><small>payment is within 15days</small></p>
+            <p>please make checks payable to:East repair inc </p>
+            </div>
+        </section>
+    </body>
+</html>

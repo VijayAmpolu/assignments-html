@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>Assignment3</title>
+    </head>
+    <body>
+        <center>
+            <h1>Java Program to Print an Integer<br>(Entered by the User)</h1>
+         </center>
+         <p style="text-align: center; font-size:1.4rem; justify-content: center; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; ">To understand this example, you should have the knowledge of the following Java<br>programming topics:</p>
+         <h1>Example: How to Print an Integer entered by an user</h1>
+         <p style="font-size: 1.3rem; color: black; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">.Java Hello World Programb<br>.Java Basic Input and Output </p> 
+         <h1>Example: How to Print an Integer entered by an user</h1>
+         <code>
+            <pre style="background-color: black; color: chartreuse; font-size: 1.2rem; width: 750px; text-align: start; padding: 20px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+                import java.util.Scanner;
+
+public class HelloWorld {
+
+    public static void main(String[] args) {
+
+        // Creates a reader instance which takes
+        // input from standard input - keyboard
+        Scanner reader = new Scanner(System.in);
+        System.out.print("Enter a number: ");
+
+        // nextInt() reads the next integer from the keyboard
+        int number = reader.nextInt();
+
+        // println() prints the following line to the output screen
+        System.out.println("You entered: " + number);
+    }
+}
+            </pre>
+            <h1>Output</h1>
+            <p style="background-color: black; color:green; width: 50%; height: 100px; font-size: 1.3rem; padding: 20px;">Enter a number: 10<br>
+                You entered: 10</p>
+
+         </code>
+         </body>
+</html>
